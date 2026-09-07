@@ -1,8 +1,17 @@
 :root {
     color-scheme: light dark;
+    --text: #000;
+    --bg: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #fff;
+        --bg: #000;
+    }
 }
 
 body {
-    color: light-dark(#000, #fff);
-    background-color: light-dark(#fff, #000);
+    color: var(--text);
+    background-color: var(--bg);
 }
