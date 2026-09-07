@@ -10,7 +10,7 @@ Get the HTML for the survey to allow CSS design
 
 ## DEFINITION OF DONE
 
-- [ ] HTML from Qualtrics
+- [X] HTML from Qualtrics
 - [ ] Playback to design and product for next steps  
 
 ## NOTES
