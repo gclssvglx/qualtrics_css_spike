@@ -16,11 +16,7 @@ Get the HTML for the survey to allow CSS design
 ## NOTES
 
 - I have not extracted any of the JavaScript on these pages.
-- I have extracted the colour palatte and the stylesheet that Qualtrics use to render the survey in 'Preview' mode.
+- I have extracted the colour palatte (css-variables.css) and the stylesheet (qualtrics-stylesheet.css) that Qualtrics uses to render the survey in 'Preview' mode. This may or may not be the same as the ones used when actually rendered on-device but accessing those is prooving tricky.
+- Because Qualtrics automatically applies the above styles and colours. I've created reset and light/dark mode stylesheets to put these back to sensible defaults.
+- I have also created a blank stylesheet, this can be used as a starting block for a new 'desired' version.
 
-Uncomment the links in all HTML files to use them.
-
-```html
-<!-- <link rel="stylesheet" type="text/css" href="css-variables.css"> -->
-<!-- <link rel="stylesheet" type="text/css" href="example-stylesheet.css"> -->
-```

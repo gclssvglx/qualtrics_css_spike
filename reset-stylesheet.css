@@ -1,0 +1,2435 @@
+/* Revert everything */
+
+* {
+    all: revert;
+}
+
+html {
+    all: revert;
+}
+
+*,
+*::before,
+*::after {
+    all: revert;
+}
+
+main {
+    all: revert;
+}
+
+textarea {
+    all: revert;
+}
+
+img {
+    all: revert;
+}
+
+*[tabIndex="-1"]:focus-visible {
+    all: revert;
+}
+
+a:link,
+a:visited,
+a:active {
+    all: revert;
+}
+
+#page {
+    all: revert;
+}
+
+#canvas-heading {
+    all: revert;
+}
+
+#canvas-heading:empty {
+    all: revert;
+}
+
+#sidebar {
+    all: revert;
+}
+
+button {
+    all: revert;
+}
+
+button[disabled] {
+    all: revert;
+}
+
+button:hover {
+    all: revert;
+}
+
+button:active {
+    all: revert;
+}
+
+.a11y-only {
+    all: revert;
+}
+
+.rich-text ul,
+.rich-text ol {
+    all: revert;
+}
+
+.icon-button {
+    all: revert;
+}
+
+.icon-button svg {
+    all: revert;
+}
+
+#fatal-error-ref {
+    all: revert;
+}
+
+#contents {
+    all: revert;
+}
+
+.transitioning {
+    all: revert;
+}
+
+.transition-none .transition-exit,
+.transition-none .transition-exit-active {
+    all: revert;
+}
+
+.transition-slide .transition-exit {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-forward .transition-enter,
+[dir=rtl] .transition-slide.transition-reverse .transition-enter {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-forward .transition-enter-active,
+[dir=rtl] .transition-slide.transition-reverse .transition-enter-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-forward .transition-exit,
+[dir=rtl] .transition-slide.transition-reverse .transition-exit {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-forward .transition-exit-active,
+[dir=rtl] .transition-slide.transition-reverse .transition-exit-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-reverse .transition-enter,
+[dir=rtl] .transition-slide.transition-forward .transition-enter {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-reverse .transition-enter-active,
+[dir=rtl] .transition-slide.transition-forward .transition-enter-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-slide.transition-reverse .transition-exit-active,
+[dir=rtl] .transition-slide.transition-forward .transition-exit-active {
+    all: revert;
+}
+
+.transition-fade .transition-enter {
+    all: revert;
+}
+
+.transition-fade .transition-enter-active {
+    all: revert;
+}
+
+.transition-fade .transition-exit {
+    all: revert;
+}
+
+.transition-fade .transition-exit-active {
+    all: revert;
+}
+
+.transition-flip {
+    all: revert;
+}
+
+.transition-flip .transition-content {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-forward .transition-enter,
+[dir=rtl] .transition-flip.transition-reverse .transition-enter {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-forward .transition-enter-active,
+[dir=rtl] .transition-flip.transition-reverse .transition-enter-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-forward .transition-exit,
+[dir=rtl] .transition-flip.transition-reverse .transition-exit {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-forward .transition-exit-active,
+[dir=rtl] .transition-flip.transition-reverse .transition-exit-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-reverse .transition-enter,
+[dir=rtl] .transition-flip.transition-forward .transition-enter {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-reverse .transition-enter-active,
+[dir=rtl] .transition-flip.transition-forward .transition-enter-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-reverse .transition-exit,
+[dir=rtl] .transition-flip.transition-forward .transition-exit {
+    all: revert;
+}
+
+[dir=ltr] .transition-flip.transition-reverse .transition-exit-active,
+[dir=rtl] .transition-flip.transition-forward .transition-exit-active {
+    all: revert;
+}
+
+.transition-roll .transition-exit {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-forward .transition-enter,
+[dir=rtl] .transition-roll.transition-reverse .transition-enter {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-forward .transition-enter-active,
+[dir=rtl] .transition-roll.transition-reverse .transition-enter-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-forward .transition-exit,
+[dir=rtl] .transition-roll.transition-reverse .transition-exit {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-forward .transition-exit-active,
+[dir=rtl] .transition-roll.transition-reverse .transition-exit-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-reverse .transition-enter,
+[dir=rtl] .transition-roll.transition-forward .transition-enter {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-reverse .transition-enter-active,
+[dir=rtl] .transition-roll.transition-forward .transition-enter-active {
+    all: revert;
+}
+
+[dir=ltr] .transition-roll.transition-reverse .transition-exit-active,
+[dir=rtl] .transition-roll.transition-forward .transition-exit-active {
+    all: revert;
+}
+
+#app .hidden {
+    all: revert;
+}
+
+.metrics {
+    all: revert;
+}
+
+.metrics span:nth-child(2n-1) {
+    all: revert;
+}
+
+.grecaptcha-badge {
+    all: revert;
+}
+
+.sticky-header {
+    all: revert;
+}
+
+.shadowbox-inner.scrollable .stuck {
+    all: revert;
+}
+
+.stuck {
+    all: revert;
+}
+
+.scrollable {
+    all: revert;
+}
+
+.scrollable::-webkit-scrollbar {
+    all: revert;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+    all: revert;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    all: revert;
+}
+
+html,
+body,
+#root,
+#app {
+    all: revert;
+}
+
+body {
+    all: revert;
+}
+
+html::before {
+    all: revert;
+}
+
+*:focus-visible {
+    all: revert;
+}
+
+a,
+button.link {
+    all: revert;
+}
+
+a:active,
+a:hover,
+button.link:active,
+button.link:hover {
+    all: revert;
+}
+
+a:focus-visible,
+button.link:focus-visible {
+    all: revert;
+}
+
+svg {
+    all: revert;
+}
+
+select {
+    all: revert;
+}
+
+select option {
+    all: revert;
+}
+
+select option:checked {
+    all: revert;
+}
+
+.portal {
+    all: revert;
+}
+
+.portal,
+main {
+    all: revert;
+}
+
+.portal *:focus-visible,
+main *:focus-visible {
+    all: revert;
+}
+
+.portal a,
+.portal button.link,
+main a,
+main button.link {
+    all: revert;
+}
+
+.portal svg,
+main svg {
+    all: revert;
+}
+
+.portal button,
+main button {
+    all: revert;
+}
+
+.portal button:hover,
+main button:hover {
+    all: revert;
+}
+
+.portal button:active,
+main button:active {
+    all: revert;
+}
+
+.portal select,
+main select {
+    all: revert;
+}
+
+h1 {
+    all: revert;
+}
+
+h2 {
+    all: revert;
+}
+
+.popper {
+    all: revert;
+}
+
+body,
+.portal {
+    all: revert;
+}
+
+#header-container,
+#logo-container,
+#canvas-heading,
+#navigation,
+#footer,
+#auto-advance-banner-container,
+#table-of-contents {
+    all: revert;
+}
+
+#header-container,
+#logo-container,
+#canvas-heading,
+#navigation,
+#footer,
+#auto-advance-banner-container,
+#table-of-contents {
+    all: revert;
+}
+
+.text-input,
+textarea,
+option,
+optgroup {
+    all: revert;
+}
+
+.text-input,
+textarea {
+    all: revert;
+}
+
+.text-input:focus-visible,
+textarea:focus-visible {
+    all: revert;
+}
+
+.text-input:hover,
+textarea:hover {
+    all: revert;
+}
+
+.overlay {
+    all: revert;
+}
+
+.loading-container {
+    all: revert;
+}
+
+.loading-container .loading-spinner span::after {
+    all: revert;
+}
+
+.error-message {
+    all: revert;
+}
+
+.error-message-container {
+    all: revert;
+}
+
+.error-message-container svg {
+    all: revert;
+}
+
+.error-message-container span {
+    all: revert;
+}
+
+[dir=rtl] .error-message-container span {
+    all: revert;
+}
+
+.metrics-description {
+    all: revert;
+}
+
+.sticky-container .sticky-header.stuck {
+    all: revert;
+}
+
+.form-less {
+    all: revert;
+}
+
+.markdown-content {
+    all: revert;
+}
+
+.markdown-content h1 {
+    all: revert;
+}
+
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+    all: revert;
+}
+
+.markdown-content p {
+    all: revert;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    all: revert;
+}
+
+.markdown-content ul ul,
+.markdown-content ul ol,
+.markdown-content ol ul,
+.markdown-content ol ol {
+    all: revert;
+}
+
+.markdown-content ul p,
+.markdown-content ol p {
+    all: revert;
+}
+
+.markdown-content a {
+    all: revert;
+}
+
+.markdown-content .markdown-table-scroll {
+    all: revert;
+}
+
+.markdown-content .markdown-table-scroll:focus-visible {
+    all: revert;
+}
+
+.markdown-content table {
+    all: revert;
+}
+
+.markdown-content th,
+.markdown-content td {
+    all: revert;
+}
+
+.markdown-content th {
+    all: revert;
+}
+
+.radio-button {
+    all: revert;
+}
+
+.radio-button svg {
+    all: revert;
+}
+
+.radio-button.selected {
+    all: revert;
+}
+
+.radio-button,
+.radio-button.selected {
+    all: revert;
+}
+
+.radio-button.radio {
+    all: revert;
+}
+
+.radio-button.checkbox {
+    all: revert;
+}
+
+#dialog {
+    all: revert;
+}
+
+#dialog #dialog-box {
+    all: revert;
+}
+
+#dialog #dialog-box.with-buttons {
+    all: revert;
+}
+
+#dialog #dialog-header {
+    all: revert;
+}
+
+#dialog #dialog-content {
+    all: revert;
+}
+
+#dialog #dialog-buttons {
+    all: revert;
+}
+
+#dialog #dialog-buttons button {
+    all: revert;
+}
+
+#dialog #dialog-buttons button+button {
+    all: revert;
+}
+
+#dialog .with-buttons #dialog-content {
+    all: revert;
+}
+
+#dialog #pdp-dialog-error-message {
+    all: revert;
+}
+
+#dialog #pdp-dialog-violations-list {
+    all: revert;
+}
+
+#dialog-box {
+    all: revert;
+}
+
+#dialog-content {
+    all: revert;
+}
+
+#dialog-header {
+    all: revert;
+}
+
+#dialog-buttons {
+    all: revert;
+}
+
+#dialog-header h2 {
+    all: revert;
+}
+
+.modal {
+    all: revert;
+}
+
+#navigation {
+    all: revert;
+}
+
+#navigation #primary-navigation {
+    all: revert;
+}
+
+#navigation #secondary-navigation {
+    all: revert;
+}
+
+#navigation .navigation-button {
+    all: revert;
+}
+
+#navigation .navigation-button:active {
+    all: revert;
+}
+
+#navigation .navigation-button svg {
+    all: revert;
+}
+
+[dir=rtl] #navigation .navigation-button svg {
+    all: revert;
+}
+
+#navigation #previous-button {
+    all: revert;
+}
+
+#navigation #previous-button:hover {
+    all: revert;
+}
+
+#navigation #previous-button:active {
+    all: revert;
+}
+
+#navigation #previous-button[disabled],
+#navigation #previous-button.disabled {
+    all: revert;
+}
+
+#navigation #previous-button[disabled]:hover,
+#navigation #previous-button[disabled]:active,
+#navigation #previous-button.disabled:hover,
+#navigation #previous-button.disabled:active {
+    all: revert;
+}
+
+[dir=rtl] #navigation #previous-button {
+    all: revert;
+}
+
+#navigation #previous-button svg {
+    all: revert;
+}
+
+#navigation #next-button {
+    all: revert;
+}
+
+#navigation #next-button:hover {
+    all: revert;
+}
+
+#navigation #next-button:active {
+    all: revert;
+}
+
+#navigation #next-button[disabled],
+#navigation #next-button.disabled {
+    all: revert;
+}
+
+#navigation #next-button[disabled]:hover,
+#navigation #next-button[disabled]:active,
+#navigation #next-button.disabled:hover,
+#navigation #next-button.disabled:active {
+    all: revert;
+}
+
+#navigation #next-button svg {
+    all: revert;
+}
+
+[dir=rtl] #navigation #next-button svg {
+    all: revert;
+}
+
+#navigation #jump-button,
+#navigation #cancel-stream-button {
+    all: revert;
+}
+
+#navigation #jump-button:hover,
+#navigation #cancel-stream-button:hover {
+    all: revert;
+}
+
+#navigation #jump-button:active,
+#navigation #cancel-stream-button:active {
+    all: revert;
+}
+
+#navigation #jump-button[disabled],
+#navigation #jump-button.disabled,
+#navigation #cancel-stream-button[disabled],
+#navigation #cancel-stream-button.disabled {
+    all: revert;
+}
+
+#navigation #jump-button[disabled]:hover,
+#navigation #jump-button[disabled]:active,
+#navigation #jump-button.disabled:hover,
+#navigation #jump-button.disabled:active,
+#navigation #cancel-stream-button[disabled]:hover,
+#navigation #cancel-stream-button[disabled]:active,
+#navigation #cancel-stream-button.disabled:hover,
+#navigation #cancel-stream-button.disabled:active {
+    all: revert;
+}
+
+#navigation #jump-button,
+#navigation #cancel-stream-button {
+    all: revert;
+}
+
+.prev-warning {
+    all: revert;
+}
+
+.checkbox-common {
+    all: revert;
+}
+
+.checkbox-common input[type=checkbox],
+.checkbox-common label {
+    all: revert;
+}
+
+.checkbox-common .checkbox-control {
+    all: revert;
+}
+
+.checkbox-common input {
+    all: revert;
+}
+
+.checkbox-common input:focus-visible {
+    all: revert;
+}
+
+.checkbox-common svg {
+    all: revert;
+}
+
+#contents .transition-content {
+    all: revert;
+}
+
+.question {
+    all: revert;
+}
+
+.question:last-child {
+    all: revert;
+}
+
+.question .question-display-wrapper {
+    all: revert;
+}
+
+.question .question-display-wrapper.scored {
+    all: revert;
+}
+
+.question .question-display-wrapper.scored .question-display {
+    all: revert;
+}
+
+.question .question-score {
+    all: revert;
+}
+
+.question .question-score .score-text {
+    all: revert;
+}
+
+.question .question-score.correct {
+    all: revert;
+}
+
+.question .question-display {
+    all: revert;
+}
+
+.question .question-display.full {
+    all: revert;
+}
+
+.question .question-content {
+    all: revert;
+}
+
+.question .required-marker {
+    all: revert;
+}
+
+[dir=rtl] .question .required-marker {
+    all: revert;
+}
+
+.question .required-marker-text {
+    all: revert;
+}
+
+.question .choice-content .required-marker {
+    all: revert;
+}
+
+.question .shadowbox .shadow {
+    all: revert;
+}
+
+.question .question-error-wrapper {
+    all: revert;
+}
+
+.question .question-error-wrapper .shadowbox-inner {
+    all: revert;
+}
+
+.question .question-error-wrapper.error {
+    all: revert;
+}
+
+.question .question-error-next {
+    all: revert;
+}
+
+.question .question-error-next button {
+    all: revert;
+}
+
+.question .question-error-next button span {
+    all: revert;
+}
+
+[dir=rtl] .question .question-error-next button span {
+    all: revert;
+}
+
+.question .question-error-next button svg {
+    all: revert;
+}
+
+[dir=rtl] .question .question-error-next button svg {
+    all: revert;
+}
+
+.question .question-error-wrapper.info {
+    all: revert;
+}
+
+.question .question-error-wrapper.info .error-message-container {
+    all: revert;
+}
+
+.question .question-error-wrapper.info .error-message-container .pdp-violations-list {
+    all: revert;
+}
+
+.question .question-error-wrapper.info .error-message-container .pdp-violation {
+    all: revert;
+}
+
+.question .question-error-wrapper.info .error-message-container svg {
+    all: revert;
+}
+
+.question .question-content .error-message {
+    all: revert;
+}
+
+.question ul.choices {
+    all: revert;
+}
+
+.question .display-with-image {
+    all: revert;
+}
+
+.question .display-with-image .expandable-image-expandable {
+    all: revert;
+}
+
+.question .display-with-image .expandable-image-expandable:hover {
+    all: revert;
+}
+
+.question .display-with-image .expandable-image-button {
+    all: revert;
+}
+
+.question .display-with-image.display-top .display-with-image-display {
+    all: revert;
+}
+
+.question .display-with-image.display-top .expandable-image {
+    all: revert;
+}
+
+.question .display-with-image.display-bottom .display-with-image-display {
+    all: revert;
+}
+
+.question .display-with-image.display-bottom .expandable-image {
+    all: revert;
+}
+
+.question .display-with-image.display-left .display-with-image-display {
+    all: revert;
+}
+
+[dir=rtl] .question .display-with-image.display-left .display-with-image-display {
+    all: revert;
+}
+
+.question .display-with-image.display-right .display-with-image-display {
+    all: revert;
+}
+
+[dir=rtl] .question .display-with-image.display-right .display-with-image-display {
+    all: revert;
+}
+
+.question .choice .choice-error-container .choice-error {
+    all: revert;
+}
+
+.question .choice .choice-error-container .choice-error.error {
+    all: revert;
+}
+
+[dir=rtl] .question .choice .choice-error-container .choice-error.error {
+    all: revert;
+}
+
+.question .choice .choice-content {
+    all: revert;
+}
+
+[dir=ltr] .question .choice .choice-content {
+    all: revert;
+}
+
+[dir=rtl] .question .choice .choice-content {
+    all: revert;
+}
+
+.question .choice .choice-content .choice-te-wrapper {
+    all: revert;
+}
+
+[dir=ltr] .question .choice .choice-content .choice-te-wrapper {
+    all: revert;
+}
+
+[dir=rtl] .question .choice .choice-content .choice-te-wrapper {
+    all: revert;
+}
+
+.question .choice .choice-content .display-with-image {
+    all: revert;
+}
+
+[dir=ltr] .question .choice .choice-content .display-with-image {
+    all: revert;
+}
+
+[dir=rtl] .question .choice .choice-content .display-with-image {
+    all: revert;
+}
+
+.shadowbox {
+    all: revert;
+}
+
+.shadowbox .shadowbox-inner.scrollable {
+    all: revert;
+}
+
+.shadowbox .shadow {
+    all: revert;
+}
+
+.shadowbox .shadow.right {
+    all: revert;
+}
+
+[dir=rtl] .shadowbox .shadow.right {
+    all: revert;
+}
+
+.shadowbox .shadow.left {
+    all: revert;
+}
+
+[dir=rtl] .shadowbox .shadow.left {
+    all: revert;
+}
+
+.question-error-wrapper .pdp-violations-list {
+    all: revert;
+}
+
+#page .error-banner.empty {
+    all: revert;
+}
+
+#page .questions-container .error-banner.empty {
+    all: revert;
+}
+
+.error-banner {
+    all: revert;
+}
+
+.error-banner.warn {
+    all: revert;
+}
+
+.error-banner.warn .error-banner-message {
+    all: revert;
+}
+
+.error-banner.warn svg {
+    all: revert;
+}
+
+.error-banner .error-banner-message,
+.error-banner button {
+    all: revert;
+}
+
+.error-banner button {
+    all: revert;
+}
+
+.error-banner button:hover {
+    all: revert;
+}
+
+.error-banner button span {
+    all: revert;
+}
+
+.error-banner button svg {
+    all: revert;
+}
+
+[dir=rtl] .error-banner button svg {
+    all: revert;
+}
+
+.error-banner-message {
+    all: revert;
+}
+
+[dir=rtl] .error-banner-message {
+    all: revert;
+}
+
+.error-banner-message svg {
+    all: revert;
+}
+
+.error-banner-message span {
+    all: revert;
+}
+
+[dir=rtl] .error-banner-message span {
+    all: revert;
+}
+
+.streaming-questions .question.streaming-question-revealed {
+    all: revert;
+}
+
+#next-button.streaming-next-settle {
+    all: revert;
+}
+
+#end-of-survey {
+    all: revert;
+}
+
+#summary-message-wrapper {
+    all: revert;
+}
+
+#summary-message-wrapper .pdf-button {
+    all: revert;
+}
+
+#summary-message-wrapper .pdf-button .loading-spinner {
+    all: revert;
+}
+
+#summary-message-wrapper .pdf-button .icon-button {
+    all: revert;
+}
+
+#summary-message-wrapper button[aria-disabled=true] {
+    all: revert;
+}
+
+#custom-summary-message {
+    all: revert;
+}
+
+:not(.questions-container) #custom-summary-message.empty {
+    all: revert;
+}
+
+html body {
+    all: revert;
+}
+
+#summary .hidden {
+    all: revert;
+}
+
+#summary .question-content {
+    all: revert;
+}
+
+#summary .question-content .matrix-accordion .foldout-header,
+#summary .question-content .controls.playback,
+#summary .question-content .sbs-accordion .foldout-header,
+#summary .question-content .password-icon {
+    all: revert;
+}
+
+#summary .db .question-content {
+    all: revert;
+}
+
+#summary div.text-input {
+    all: revert;
+}
+
+#summary .summary-text-wrapper {
+    all: revert;
+}
+
+#summary .mc .choice.scored {
+    all: revert;
+}
+
+#summary .choice {
+    all: revert;
+}
+
+#summary .choice .choice-content {
+    all: revert;
+}
+
+#summary .resize-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .grid-cell-input div.text-input {
+    all: revert;
+}
+
+#summary .matrix-table div.text-input {
+    all: revert;
+}
+
+#summary .matrix-table .grid-cell {
+    all: revert;
+}
+
+#summary .matrix-table .grid-cell .grid-cell-input {
+    all: revert;
+}
+
+#summary .matrix-table .choice-te-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .matrix-table .summary-text-wrapper {
+    all: revert;
+}
+
+#summary .matrix-table.transposed .choice-content {
+    all: revert;
+}
+
+#summary .matrix-table.transposed .choice-te-wrapper {
+    all: revert;
+}
+
+#summary .matrix-table.transposed .matrix-statement-header .display-with-image {
+    all: revert;
+}
+
+#summary .sbs-column .choice-te-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .sbs-column .summary-text-wrapper {
+    all: revert;
+}
+
+#summary .sbs-accordion .text-input-control div.text-input {
+    all: revert;
+}
+
+#summary .sbs-accordion .choice-te-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .form .choice-te-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .te .resize-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .auto .summary-text-wrapper .text-input {
+    all: revert;
+}
+
+#summary .mc .choice-te-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .cs .input-wrapper .text-input {
+    all: revert;
+}
+
+#summary .cs .input-wrapper .text-input.display-box {
+    all: revert;
+}
+
+#summary .cs .choice-te-wrapper .text-input {
+    all: revert;
+}
+
+#summary .choice-te-wrapper div.text-input {
+    all: revert;
+}
+
+#summary .password {
+    all: revert;
+}
+
+#summary .password div.text-input {
+    all: revert;
+}
+
+#summary .draggable-grouper div.text-input {
+    all: revert;
+}
+
+#summary .draggable-grouper .content-wrapper {
+    all: revert;
+}
+
+#summary .combo-box .text-input {
+    all: revert;
+}
+
+#summary select {
+    all: revert;
+}
+
+#summary select option.selected {
+    all: revert;
+}
+
+#summary .total-bar {
+    all: revert;
+}
+
+#error-message {
+    all: revert;
+}
+
+#error-message.error {
+    all: revert;
+}
+
+#confirm-start {
+    all: revert;
+}
+
+#confirm-start-message {
+    all: revert;
+}
+
+#challenge-content {
+    all: revert;
+}
+
+#challenge-message {
+    all: revert;
+}
+
+.common-button {
+    all: revert;
+}
+
+.common-button[disabled] {
+    all: revert;
+}
+
+.common-button.default {
+    all: revert;
+}
+
+.common-button.link {
+    all: revert;
+}
+
+.common-button.primary {
+    all: revert;
+}
+
+.common-button.primary:hover {
+    all: revert;
+}
+
+.common-button.primary:active {
+    all: revert;
+}
+
+.common-button.primary[disabled],
+.common-button.primary.disabled {
+    all: revert;
+}
+
+.common-button.primary[disabled]:hover,
+.common-button.primary[disabled]:active,
+.common-button.primary.disabled:hover,
+.common-button.primary.disabled:active {
+    all: revert;
+}
+
+.common-button.secondary,
+.common-button.pill {
+    all: revert;
+}
+
+.common-button.secondary:hover,
+.common-button.pill:hover {
+    all: revert;
+}
+
+.common-button.secondary:active,
+.common-button.pill:active {
+    all: revert;
+}
+
+.common-button.secondary[disabled],
+.common-button.secondary.disabled,
+.common-button.pill[disabled],
+.common-button.pill.disabled {
+    all: revert;
+}
+
+.common-button.secondary[disabled]:hover,
+.common-button.secondary[disabled]:active,
+.common-button.secondary.disabled:hover,
+.common-button.secondary.disabled:active,
+.common-button.pill[disabled]:hover,
+.common-button.pill[disabled]:active,
+.common-button.pill.disabled:hover,
+.common-button.pill.disabled:active {
+    all: revert;
+}
+
+.common-button.pill {
+    all: revert;
+}
+
+#table-of-contents h1 {
+    all: revert;
+}
+
+#table-of-contents .error-message {
+    all: revert;
+}
+
+#table-of-contents .error-message .error-message-content {
+    all: revert;
+}
+
+#table-of-contents .error-message svg {
+    all: revert;
+}
+
+#table-of-contents .error-message ul {
+    all: revert;
+}
+
+#table-of-contents .error-message ul li {
+    all: revert;
+}
+
+.toc-tree .toc-header,
+.toc-tree .toc-entry {
+    all: revert;
+}
+
+.toc-tree .toc-header {
+    all: revert;
+}
+
+.toc-tree>.toc-header:first-of-type {
+    all: revert;
+}
+
+.toc-tree .toc-entry {
+    all: revert;
+}
+
+.toc-tree .toc-entry.active {
+    all: revert;
+}
+
+.toc-tree .toc-entry .status {
+    all: revert;
+}
+
+.toc-tree .toc-entry .status svg {
+    all: revert;
+}
+
+.toc-tree .toc-warning {
+    all: revert;
+}
+
+.toc-tree .toc-entries li {
+    all: revert;
+}
+
+.toc-tree .toc-entries>li>.toc-entry {
+    all: revert;
+}
+
+.toc-tree .toc-entries>li>.toc-header {
+    all: revert;
+}
+
+.toc-tree .toc-entries>li .toc-entries>li>.toc-entry {
+    all: revert;
+}
+
+.toc-tree .toc-entries>li .toc-entries>li>.toc-header {
+    all: revert;
+}
+
+.toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-entry {
+    all: revert;
+}
+
+.toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-header {
+    all: revert;
+}
+
+.overlay.enter {
+    all: revert;
+}
+
+.overlay.enter-active,
+.overlay.enter-done {
+    all: revert;
+}
+
+.overlay.exit-active {
+    all: revert;
+}
+
+.overlay.exit {
+    all: revert;
+}
+
+#page footer {
+    all: revert;
+}
+
+#page footer .plug-container {
+    all: revert;
+}
+
+#page #header,
+#page #footer {
+    all: revert;
+}
+
+#page #header-container,
+#page #survey-canvas,
+#page #footer {
+    all: revert;
+}
+
+#page #header-container,
+#page #survey-canvas,
+#page #footer {
+    all: revert;
+}
+
+#page #header-container {
+    all: revert;
+}
+
+#page #header-container.empty {
+    all: revert;
+}
+
+#page #survey-canvas.questions-container {
+    all: revert;
+}
+
+#page #survey-canvas {
+    all: revert;
+}
+
+#progress-bar {
+    all: revert;
+}
+
+#progress-bar.floating {
+    all: revert;
+}
+
+#progress-bar.progress-bar-bottom {
+    all: revert;
+}
+
+#progress-bar #progress-bar-fill {
+    all: revert;
+}
+
+#progress-bar #progress-bar-fill div {
+    all: revert;
+}
+
+#progress-bar.progress-bar-verbose {
+    all: revert;
+}
+
+#progress-bar #progress-bar-text {
+    all: revert;
+}
+
+#progress-bar progress {
+    all: revert;
+}
+
+#logo-container {
+    all: revert;
+}
+
+#logo-container.position-right {
+    all: revert;
+}
+
+#logo-container.position-center {
+    all: revert;
+}
+
+#logo-container.banner {
+    all: revert;
+}
+
+#logo-container img {
+    all: revert;
+}
+
+.plug-container {
+    all: revert;
+}
+
+.plug-container a svg {
+    all: revert;
+}
+
+[dir=rtl] .plug-container a svg {
+    all: revert;
+}
+
+.plug-container #plug {
+    all: revert;
+}
+
+.plug-container #plug a {
+    all: revert;
+}
+
+.plug-container #plug a svg {
+    all: revert;
+}
+
+.plug-container #plug a:focus-visible {
+    all: revert;
+}
+
+[dir=rtl] .plug-container #plug a {
+    all: revert;
+}
+
+.plug-container #plug a:hover {
+    all: revert;
+}
+
+.plug-container #plug a:hover svg {
+    all: revert;
+}
+
+#auto-advance-banner-container {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-message {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-message svg {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-message span {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close svg {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close svg:hover {
+    all: revert;
+}
+
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close:focus-visible svg {
+    all: revert;
+}
+
+#sidebar .toc-tree {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-header {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries li {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries>li>.toc-entry {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries>li>.toc-header {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries>li .toc-entries>li>.toc-entry {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries>li .toc-entries>li>.toc-header {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-entry {
+    all: revert;
+}
+
+#sidebar .toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-header {
+    all: revert;
+}
+
+.popper-container {
+    all: revert;
+}
+
+.popper-container.inline {
+    all: revert;
+}
+
+.popper>* {
+    all: revert;
+}
+
+.popper.show {
+    all: revert;
+}
+
+.popper.show.custom-width {
+    all: revert;
+}
+
+#language-selector {
+    all: revert;
+}
+
+label[for=language-selector] {
+    all: revert;
+}
+
+.dropdown-menu {
+    all: revert;
+}
+
+.select-menu {
+    all: revert;
+}
+
+.select-menu.menu-button {
+    all: revert;
+}
+
+.select-menu.menu-button:hover {
+    all: revert;
+}
+
+.select-menu.menu-button:active {
+    all: revert;
+}
+
+.select-menu.menu-button[disabled],
+.select-menu.menu-button.disabled {
+    all: revert;
+}
+
+.select-menu.menu-button[disabled]:hover,
+.select-menu.menu-button[disabled]:active,
+.select-menu.menu-button.disabled:hover,
+.select-menu.menu-button.disabled:active {
+    all: revert;
+}
+
+.select-menu.menu-button svg {
+    all: revert;
+}
+
+.select-menu.menu-button.active {
+    all: revert;
+}
+
+.select-menu.menu-dropdown {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .focused {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item:hover,
+.select-menu.menu-dropdown .menu-item.focused {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item.selected {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item.selected:hover,
+.select-menu.menu-dropdown .menu-item.selected.focused {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item,
+.select-menu.menu-dropdown .menu-item-group-label {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item.grouped {
+    all: revert;
+}
+
+.select-menu.menu-dropdown .menu-item-group-label {
+    all: revert;
+}
+
+.mc .choice-label {
+    all: revert;
+}
+
+.mc .choice-label * {
+    all: revert;
+}
+
+[dir=rtl] .mc .choice-label {
+    all: revert;
+}
+
+.mc .radio-button {
+    all: revert;
+}
+
+.mc.vertical .choices.columnar {
+    all: revert;
+}
+
+.mc.horizontal .choices .choice.scored.above,
+.mc.vertical .choices .choice.scored.above {
+    all: revert;
+}
+
+.mc.horizontal .choices .choice.scored.above .choice-label,
+.mc.vertical .choices .choice.scored.above .choice-label {
+    all: revert;
+}
+
+.mc .choices .choice.scored .choice-label {
+    all: revert;
+}
+
+[dir=rtl] .mc .choices .choice.scored .choice-label {
+    all: revert;
+}
+
+.mc .choice.focused .choice-label {
+    all: revert;
+}
+
+.mc .choice.focused .radio-button {
+    all: revert;
+}
+
+.mc .choice.selected .choice-label {
+    all: revert;
+}
+
+.mc .choice.selected.focused .choice-label {
+    all: revert;
+}
+
+.mc .choice.selected.focused .radio-button {
+    all: revert;
+}
+
+.mc .choice:hover .choice-label {
+    all: revert;
+}
+
+.mc .choice:hover .radio-button {
+    all: revert;
+}
+
+.mc .choice.selected:hover .choice-label {
+    all: revert;
+}
+
+.mc .choice:active .choice-label {
+    all: revert;
+}
+
+.mc .choice input[type=text] {
+    all: revert;
+}
+
+.mc .choice input[type=radio],
+.mc .choice input[type=checkbox] {
+    all: revert;
+}
+
+.mc .choices {
+    all: revert;
+}
+
+.mc .choice {
+    all: revert;
+}
+
+.mc .choice .choice-error-container {
+    all: revert;
+}
+
+.mc .choice .choice-error-container .choice-error.error {
+    all: revert;
+}
+
+[dir=rtl] .mc .choice .choice-error-container .choice-error.error {
+    all: revert;
+}
+
+.mc .choice .choice-error-container .error-message {
+    all: revert;
+}
+
+[dir=ltr] .mc .choice-content {
+    all: revert;
+}
+
+[dir=rtl] .mc .choice-content {
+    all: revert;
+}
+
+[dir=ltr] .mc .choice-group {
+    all: revert;
+}
+
+[dir=rtl] .mc .choice-group {
+    all: revert;
+}
+
+.mc.vertical .choices .choice,
+.mc.horizontal .choices .choice {
+    all: revert;
+}
+
+.mc.vertical .choices .choice-group,
+.mc.horizontal .choices .choice-group {
+    all: revert;
+}
+
+.mc.vertical .choices .choice-group-label-display,
+.mc.horizontal .choices .choice-group-label-display {
+    all: revert;
+}
+
+.mc.vertical .choices .choice,
+.mc.horizontal .choices .choice {
+    all: revert;
+}
+
+.mc.vertical .choices .choice-group,
+.mc.horizontal .choices .choice-group {
+    all: revert;
+}
+
+.mc.vertical .choices .choice-group-label-display,
+.mc.horizontal .choices .choice-group-label-display {
+    all: revert;
+}
+
+.mc.vertical .choices .choice-group-label,
+.mc.horizontal .choices .choice-group-label {
+    all: revert;
+}
+
+[dir=rtl] .mc.vertical .choices .choice-group-label,
+[dir=rtl] .mc.horizontal .choices .choice-group-label {
+    all: revert;
+}
+
+.mc.vertical .choices .choice-group-label,
+.mc.horizontal .choices .choice-group-label {
+    all: revert;
+}
+
+[dir=rtl] .mc.vertical .choices .choice-group-label,
+[dir=rtl] .mc.horizontal .choices .choice-group-label {
+    all: revert;
+}
+
+.mc.vertical .choices .choice:last-child,
+.mc.horizontal .choices .choice:last-child {
+    all: revert;
+}
+
+.mc.vertical .choices.columnar,
+.mc.horizontal .choices.columnar {
+    all: revert;
+}
+
+.mc.vertical .choices.columnar,
+.mc.horizontal .choices.columnar {
+    all: revert;
+}
+
+.mc.vertical .choices.columnar .choice,
+.mc.horizontal .choices.columnar .choice {
+    all: revert;
+}
+
+.mc.vertical .choices.columnar .choice .choice-label,
+.mc.horizontal .choices.columnar .choice .choice-label {
+    all: revert;
+}
+
+.mc.horizontal .choices {
+    all: revert;
+}
+
+.mc.horizontal .choices .choice.above .choice-label {
+    all: revert;
+}
+
+.mc.horizontal .choices .choice {
+    all: revert;
+}
+
+.mc.horizontal .choices .choice.side .choice-label {
+    all: revert;
+}
+
+.mc.horizontal .choices .choice.above .choice-label .choice-content {
+    all: revert;
+}
+
+.mc.dropdown .menu-button {
+    all: revert;
+}
+
+.mc.select select {
+    all: revert;
+}
+
+.mc.select select option {
+    all: revert;
+}
+
+.mc.select select optgroup {
+    all: revert;
+}
+
+.mc .mc-button-choices .choices {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.radio .radio-button {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.radio .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.radio .choice-label .choice-content {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice input[type=radio] {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.focused .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.selected .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice:hover .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.selected:hover .choice-label,
+.mc .mc-button-choices .choice.selected.focused:hover .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice:active .choice-label {
+    all: revert;
+}
+
+.mc .mc-button-choices .choice.focused:active .choice-label {
+    all: revert;
+}
+
+.mc.horizontal .mc-button-choices .choices,
+.mc.vertical .mc-button-choices .choices.columnar {
+    all: revert;
+}
+
+.mc.horizontal .mc-button-choices .choices .choice.above.radio .choice-label,
+.mc.horizontal .mc-button-choices .choices .choice.side.radio .choice-label,
+.mc.vertical .mc-button-choices .choices.columnar .choice.above.radio .choice-label,
+.mc.vertical .mc-button-choices .choices.columnar .choice.side.radio .choice-label {
+    all: revert;
+}
+
+.mc.horizontal .mc-button-choices .choices .choice.above.radio .choice-label .choice-content,
+.mc.horizontal .mc-button-choices .choices .choice.side.radio .choice-label .choice-content,
+.mc.vertical .mc-button-choices .choices.columnar .choice.above.radio .choice-label .choice-content,
+.mc.vertical .mc-button-choices .choices.columnar .choice.side.radio .choice-label .choice-content {
+    all: revert;
+}
+
+.mc.horizontal .mc-button-choices .choices,
+.mc.vertical .mc-button-choices .choices.columnar {
+    all: revert;
+}
+
+.mc.horizontal .mc-button-choices .choices .choice.above.radio .choice-label,
+.mc.horizontal .mc-button-choices .choices .choice.side.radio .choice-label,
+.mc.vertical .mc-button-choices .choices.columnar .choice.above.radio .choice-label,
+.mc.vertical .mc-button-choices .choices.columnar .choice.side.radio .choice-label {
+    all: revert;
+}
+
+.choice-content {
+    all: revert;
+}
+
+.choice-content .choice-te-wrapper {
+    all: revert;
+}
+
+.choice-content .choice-te-wrapper.choice-te-unselected {
+    all: revert;
+}
+
+.choice-content .choice-te-wrapper.choice-te-unselected input,
+.choice-content .choice-te-wrapper.choice-te-unselected textarea {
+    all: revert;
+}
+
+.summary-text-wrapper {
+    all: revert;
+}
+
+.summary-text-wrapper.scored .score-icon {
+    all: revert;
+}
+
+.summary-text-wrapper.scored .text-input {
+    all: revert;
+}
+
+.summary-text-wrapper.scored {
+    all: revert;
+}
+
+.score-icon {
+    all: revert;
+}
+
+.score-icon.correct {
+    all: revert;
+}
+
+.display-with-image {
+    all: revert;
+}
+
+.display-with-image .expandable-image-button {
+    all: revert;
+}
+
+.display-with-image .expandable-image {
+    all: revert;
+}
+
+.display-with-image .display-with-image-display {
+    all: revert;
+}
+
+.display-with-image.display-top .display-with-image-display {
+    all: revert;
+}
+
+.display-with-image.display-top .expandable-image {
+    all: revert;
+}
+
+.display-with-image.display-right .display-with-image-display {
+    all: revert;
+}
+
+.display-with-image.display-right .expandable-image {
+    all: revert;
+}
+
+.display-with-image.display-bottom .display-with-image-display {
+    all: revert;
+}
+
+.display-with-image.display-bottom .expandable-image {
+    all: revert;
+}
+
+.display-with-image.display-left .display-with-image-display {
+    all: revert;
+}
+
+.display-with-image.display-left .expandable-image {
+    all: revert;
+}
+
+#lightbox-container {
+    all: revert;
+}
+
+#lightbox-container .icon {
+    all: revert;
+}
+
+#lightbox-header {
+    all: revert;
+}
+
+#lightbox {
+    all: revert;
+}
+
+#lightbox-img-label {
+    all: revert;
+}
+
+#lightbox-img {
+    all: revert;
+}
+
+#lightbox-close {
+    all: revert;
+}
+
+#lightbox-close:hover,
+#lightbox-close:active {
+    all: revert;
+}
+
+[dir=rtl] #lightbox-close {
+    all: revert;
+}
+
+.password {
+    all: revert;
+}
+
+.password .password-icon {
+    all: revert;
+}
+
+[dir=ltr] .password .password-icon {
+    all: revert;
+}
+
+[dir=rtl] .password .password-icon {
+    all: revert;
+}
+
+[dir=ltr] .password .password-input {
+    all: revert;
+}
+
+[dir=rtl] .password .password-input {
+    all: revert;
+}
+
+#q {
+    all: revert;
+}
+
+#q::before {
+    all: revert;
+}
+
+/* Baseline defaults */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+#root,
+#app,
+#page {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+}
+
+input,
+textarea,
+select,
+option,
+optgroup {
+    font: inherit;
+    color: inherit;
+}
+
+label {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0;
+}
+
+progress {
+    display: block;
+}
+
+:focus-visible {
+    outline: 2px solid;
+    outline-offset: 2px;
+}
+
+.a11y-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,1464 @@
+* {
+}
+html {
+}
+*,
+*::before,
+*::after {
+}
+main {
+}
+textarea {
+}
+img {
+}
+*[tabIndex="-1"]:focus-visible {
+}
+a:link,
+a:visited,
+a:active {
+}
+#page {
+}
+#canvas-heading {
+}
+#canvas-heading:empty {
+}
+#sidebar {
+}
+button {
+}
+button[disabled] {
+}
+button:hover {
+}
+button:active {
+}
+.a11y-only {
+}
+.rich-text ul,
+.rich-text ol {
+}
+.icon-button {
+}
+.icon-button svg {
+}
+#fatal-error-ref {
+}
+:root {
+}
+#contents {
+}
+.transitioning {
+}
+.transition-none .transition-exit,
+.transition-none .transition-exit-active {
+}
+.transition-slide .transition-exit {
+}
+[dir=ltr] .transition-slide.transition-forward .transition-enter,
+[dir=rtl] .transition-slide.transition-reverse .transition-enter {
+}
+[dir=ltr] .transition-slide.transition-forward .transition-enter-active,
+[dir=rtl] .transition-slide.transition-reverse .transition-enter-active {
+}
+[dir=ltr] .transition-slide.transition-forward .transition-exit,
+[dir=rtl] .transition-slide.transition-reverse .transition-exit {
+}
+[dir=ltr] .transition-slide.transition-forward .transition-exit-active,
+[dir=rtl] .transition-slide.transition-reverse .transition-exit-active {
+}
+[dir=ltr] .transition-slide.transition-reverse .transition-enter,
+[dir=rtl] .transition-slide.transition-forward .transition-enter {
+}
+[dir=ltr] .transition-slide.transition-reverse .transition-enter-active,
+[dir=rtl] .transition-slide.transition-forward .transition-enter-active {
+}
+[dir=ltr] .transition-slide.transition-reverse .transition-exit-active,
+[dir=rtl] .transition-slide.transition-forward .transition-exit-active {
+}
+.transition-fade .transition-enter {
+}
+.transition-fade .transition-enter-active {
+}
+.transition-fade .transition-exit {
+}
+.transition-fade .transition-exit-active {
+}
+.transition-flip {
+}
+.transition-flip .transition-content {
+}
+[dir=ltr] .transition-flip.transition-forward .transition-enter,
+[dir=rtl] .transition-flip.transition-reverse .transition-enter {
+}
+[dir=ltr] .transition-flip.transition-forward .transition-enter-active,
+[dir=rtl] .transition-flip.transition-reverse .transition-enter-active {
+}
+[dir=ltr] .transition-flip.transition-forward .transition-exit,
+[dir=rtl] .transition-flip.transition-reverse .transition-exit {
+}
+[dir=ltr] .transition-flip.transition-forward .transition-exit-active,
+[dir=rtl] .transition-flip.transition-reverse .transition-exit-active {
+}
+[dir=ltr] .transition-flip.transition-reverse .transition-enter,
+[dir=rtl] .transition-flip.transition-forward .transition-enter {
+}
+[dir=ltr] .transition-flip.transition-reverse .transition-enter-active,
+[dir=rtl] .transition-flip.transition-forward .transition-enter-active {
+}
+[dir=ltr] .transition-flip.transition-reverse .transition-exit,
+[dir=rtl] .transition-flip.transition-forward .transition-exit {
+}
+[dir=ltr] .transition-flip.transition-reverse .transition-exit-active,
+[dir=rtl] .transition-flip.transition-forward .transition-exit-active {
+}
+.transition-roll .transition-exit {
+}
+[dir=ltr] .transition-roll.transition-forward .transition-enter,
+[dir=rtl] .transition-roll.transition-reverse .transition-enter {
+}
+[dir=ltr] .transition-roll.transition-forward .transition-enter-active,
+[dir=rtl] .transition-roll.transition-reverse .transition-enter-active {
+}
+[dir=ltr] .transition-roll.transition-forward .transition-exit,
+[dir=rtl] .transition-roll.transition-reverse .transition-exit {
+}
+[dir=ltr] .transition-roll.transition-forward .transition-exit-active,
+[dir=rtl] .transition-roll.transition-reverse .transition-exit-active {
+}
+[dir=ltr] .transition-roll.transition-reverse .transition-enter,
+[dir=rtl] .transition-roll.transition-forward .transition-enter {
+}
+[dir=ltr] .transition-roll.transition-reverse .transition-enter-active,
+[dir=rtl] .transition-roll.transition-forward .transition-enter-active {
+}
+[dir=ltr] .transition-roll.transition-reverse .transition-exit-active,
+[dir=rtl] .transition-roll.transition-forward .transition-exit-active {
+}
+#app .hidden {
+}
+.metrics {
+}
+.metrics span:nth-child(2n-1) {
+}
+.grecaptcha-badge {
+}
+.sticky-header {
+}
+.shadowbox-inner.scrollable .stuck {
+}
+.stuck {
+}
+.scrollable {
+}
+.scrollable::-webkit-scrollbar {
+}
+.scrollable::-webkit-scrollbar-thumb {
+}
+.scrollable::-webkit-scrollbar-track {
+}
+html,
+body,
+#root,
+#app {
+}
+html {
+}
+body {
+}
+html::before {
+}
+#page {
+}
+*:focus-visible {
+}
+a,
+button.link {
+}
+a:active,
+a:hover,
+button.link:active,
+button.link:hover {
+}
+a:focus-visible,
+button.link:focus-visible {
+}
+svg {
+}
+select {
+}
+select option {
+}
+select option:checked {
+}
+.portal {
+}
+.portal,
+main {
+}
+.portal *:focus-visible,
+main *:focus-visible {
+}
+.portal a,
+.portal button.link,
+main a,
+main button.link {
+}
+.portal svg,
+main svg {
+}
+.portal button,
+main button {
+}
+.portal button:hover,
+main button:hover {
+}
+.portal button:active,
+main button:active {
+}
+.portal select,
+main select {
+}
+h1 {
+}
+h2 {
+}
+.popper {
+}
+body,
+.portal {
+}
+#header-container,
+#logo-container,
+#canvas-heading,
+#navigation,
+#footer,
+#auto-advance-banner-container,
+#table-of-contents {
+}
+@media(max-width: 30rem) {
+    #header-container,
+    #logo-container,
+    #canvas-heading,
+    #navigation,
+    #footer,
+    #auto-advance-banner-container,
+    #table-of-contents {
+    }
+}
+.text-input,
+textarea,
+option,
+optgroup {
+}
+.text-input,
+textarea {
+}
+.text-input:focus-visible,
+textarea:focus-visible {
+}
+.text-input:hover,
+textarea:hover {
+}
+.overlay {
+}
+.loading-container {
+}
+.loading-container .loading-spinner span::after {
+}
+.error-message {
+}
+.error-message-container {
+}
+@media(max-width: 30rem) {
+    .error-message-container {
+    }
+}
+.error-message-container svg {
+}
+.error-message-container span {
+}
+[dir=rtl] .error-message-container span {
+}
+.metrics-description {
+}
+.sticky-container .sticky-header.stuck {
+}
+.form-less {
+}
+.markdown-content {
+}
+.markdown-content h1 {
+}
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+}
+.markdown-content p {
+}
+.markdown-content ul,
+.markdown-content ol {
+}
+.markdown-content ul ul,
+.markdown-content ul ol,
+.markdown-content ol ul,
+.markdown-content ol ol {
+}
+.markdown-content ul p,
+.markdown-content ol p {
+}
+.markdown-content a {
+}
+.markdown-content .markdown-table-scroll {
+}
+.markdown-content .markdown-table-scroll:focus-visible {
+}
+.markdown-content table {
+}
+.markdown-content th,
+.markdown-content td {
+}
+.markdown-content th {
+}
+.radio-button {
+}
+.radio-button svg {
+}
+.radio-button.selected {
+}
+@media(forced-colors: active) {
+    .radio-button,
+    .radio-button.selected {
+    }
+}
+.radio-button.radio {
+}
+.radio-button.checkbox {
+}
+#dialog {
+}
+#dialog #dialog-box {
+}
+#dialog #dialog-box.with-buttons {
+}
+#dialog #dialog-header {
+}
+#dialog #dialog-content {
+}
+#dialog #dialog-buttons {
+}
+#dialog #dialog-buttons button {
+}
+#dialog #dialog-buttons button+button {
+}
+@media screen and (min-height: 27rem) {
+    #dialog .with-buttons #dialog-content {
+    }
+}
+@media screen and (max-height: 40rem) {
+    #dialog #dialog-box {
+    }
+}
+#dialog #pdp-dialog-error-message {
+}
+#dialog #pdp-dialog-violations-list {
+}
+#dialog-box {
+}
+#dialog-content {
+}
+#dialog-header {
+}
+#dialog-buttons {
+}
+#dialog-header h2 {
+}
+.modal {
+}
+#navigation {
+}
+@media print {
+    #navigation {
+    }
+}
+@media(max-width: 30rem) {
+    #navigation {
+    }
+}
+#navigation #primary-navigation {
+}
+@media(min-width: 30rem) {
+    #navigation #primary-navigation {
+    }
+}
+#navigation #secondary-navigation {
+}
+@media(max-width: 30rem) {
+    #navigation #secondary-navigation {
+    }
+}
+#navigation .navigation-button {
+}
+#navigation .navigation-button:active {
+}
+#navigation .navigation-button svg {
+}
+[dir=rtl] #navigation .navigation-button svg {
+}
+#navigation #previous-button {
+}
+#navigation #previous-button:hover {
+}
+#navigation #previous-button:active {
+}
+#navigation #previous-button[disabled],
+#navigation #previous-button.disabled {
+}
+#navigation #previous-button[disabled]:hover,
+#navigation #previous-button[disabled]:active,
+#navigation #previous-button.disabled:hover,
+#navigation #previous-button.disabled:active {
+}
+#navigation #previous-button:hover {
+}
+#navigation #previous-button {
+}
+[dir=rtl] #navigation #previous-button {
+}
+#navigation #previous-button svg {
+}
+#navigation #next-button {
+}
+#navigation #next-button:hover {
+}
+#navigation #next-button:active {
+}
+#navigation #next-button[disabled],
+#navigation #next-button.disabled {
+}
+#navigation #next-button[disabled]:hover,
+#navigation #next-button[disabled]:active,
+#navigation #next-button.disabled:hover,
+#navigation #next-button.disabled:active {
+}
+#navigation #next-button {
+}
+#navigation #next-button svg {
+}
+[dir=rtl] #navigation #next-button svg {
+}
+@media(min-width: 30rem) {
+    #navigation #next-button {
+    }
+}
+#navigation #jump-button,
+#navigation #cancel-stream-button {
+}
+#navigation #jump-button:hover,
+#navigation #cancel-stream-button:hover {
+}
+#navigation #jump-button:active,
+#navigation #cancel-stream-button:active {
+}
+#navigation #jump-button[disabled],
+#navigation #jump-button.disabled,
+#navigation #cancel-stream-button[disabled],
+#navigation #cancel-stream-button.disabled {
+}
+#navigation #jump-button[disabled]:hover,
+#navigation #jump-button[disabled]:active,
+#navigation #jump-button.disabled:hover,
+#navigation #jump-button.disabled:active,
+#navigation #cancel-stream-button[disabled]:hover,
+#navigation #cancel-stream-button[disabled]:active,
+#navigation #cancel-stream-button.disabled:hover,
+#navigation #cancel-stream-button.disabled:active {
+}
+#navigation #jump-button:hover,
+#navigation #cancel-stream-button:hover {
+}
+#navigation #jump-button,
+#navigation #cancel-stream-button {
+}
+@media(min-width: 30rem) {
+    #navigation #jump-button,
+    #navigation #cancel-stream-button {
+    }
+}
+.prev-warning {
+}
+.checkbox-common {
+}
+.checkbox-common input[type=checkbox],
+.checkbox-common label {
+}
+.checkbox-common .checkbox-control {
+}
+.checkbox-common input {
+}
+.checkbox-common input:focus-visible {
+}
+.checkbox-common svg {
+}
+#contents .transition-content {
+}
+@media(max-width: 30rem) {
+    #contents .transition-content {
+    }
+}
+.question {
+}
+.question:last-child {
+}
+.question .question-display-wrapper {
+}
+.question .question-display-wrapper.scored {
+}
+.question .question-display-wrapper.scored .question-display {
+}
+.question .question-score {
+}
+.question .question-score .score-text {
+}
+.question .question-score.correct {
+}
+.question .question-display {
+}
+.question .question-display.full {
+}
+.question .question-content {
+}
+.question .required-marker {
+}
+[dir=rtl] .question .required-marker {
+}
+.question .required-marker-text {
+}
+.question .choice-content .required-marker {
+}
+.question .shadowbox .shadow {
+}
+.question .question-error-wrapper {
+}
+@media(max-width: 30rem) {
+    .question .question-error-wrapper {
+    }
+}
+.question .question-error-wrapper .shadowbox-inner {
+}
+@media(max-width: 30rem) {
+    .question .question-error-wrapper .shadowbox-inner {
+    }
+}
+.question .question-error-wrapper.error {
+}
+.question .question-error-next {
+}
+@media(max-width: 30rem) {
+    .question .question-error-next {
+    }
+}
+.question .question-error-next button {
+}
+.question .question-error-next button span {
+}
+[dir=rtl] .question .question-error-next button span {
+}
+.question .question-error-next button svg {
+}
+[dir=rtl] .question .question-error-next button svg {
+}
+.question .question-error-wrapper.info {
+}
+.question .question-error-wrapper.info .error-message-container {
+}
+.question .question-error-wrapper.info .error-message-container .pdp-violations-list {
+}
+.question .question-error-wrapper.info .error-message-container .pdp-violation {
+}
+.question .question-error-wrapper.info .error-message-container svg {
+}
+.question .question-content .error-message {
+}
+.question ul.choices {
+}
+.question .display-with-image {
+}
+.question .display-with-image .expandable-image-expandable {
+}
+.question .display-with-image .expandable-image-expandable:hover {
+}
+.question .display-with-image .expandable-image-button {
+}
+.question .display-with-image.display-top .display-with-image-display {
+}
+.question .display-with-image.display-top .expandable-image {
+}
+.question .display-with-image.display-bottom .display-with-image-display {
+}
+.question .display-with-image.display-bottom .expandable-image {
+}
+.question .display-with-image.display-left .display-with-image-display {
+}
+[dir=rtl] .question .display-with-image.display-left .display-with-image-display {
+}
+.question .display-with-image.display-right .display-with-image-display {
+}
+[dir=rtl] .question .display-with-image.display-right .display-with-image-display {
+}
+.question .choice .choice-error-container .choice-error {
+}
+.question .choice .choice-error-container .choice-error.error {
+}
+[dir=rtl] .question .choice .choice-error-container .choice-error.error {
+}
+.question .choice .choice-content {
+}
+[dir=ltr] .question .choice .choice-content {
+}
+[dir=rtl] .question .choice .choice-content {
+}
+.question .choice .choice-content .choice-te-wrapper {
+}
+[dir=ltr] .question .choice .choice-content .choice-te-wrapper {
+}
+[dir=rtl] .question .choice .choice-content .choice-te-wrapper {
+}
+.question .choice .choice-content .display-with-image {
+}
+[dir=ltr] .question .choice .choice-content .display-with-image {
+}
+[dir=rtl] .question .choice .choice-content .display-with-image {
+}
+.shadowbox {
+}
+.shadowbox .shadowbox-inner.scrollable {
+}
+.shadowbox .shadow {
+}
+.shadowbox .shadow.right {
+}
+[dir=rtl] .shadowbox .shadow.right {
+}
+.shadowbox .shadow.left {
+}
+[dir=rtl] .shadowbox .shadow.left {
+}
+.question-error-wrapper .pdp-violations-list {
+}
+#page .error-banner.empty {
+}
+#page .questions-container .error-banner.empty {
+}
+.error-banner {
+}
+.error-banner.warn {
+}
+.error-banner.warn .error-banner-message {
+}
+.error-banner.warn svg {
+}
+.error-banner .error-banner-message,
+.error-banner button {
+}
+.error-banner button {
+}
+.error-banner button:hover {
+}
+.error-banner button span {
+}
+.error-banner button svg {
+}
+[dir=rtl] .error-banner button svg {
+}
+.error-banner-message {
+}
+[dir=rtl] .error-banner-message {
+}
+.error-banner-message svg {
+}
+.error-banner-message span {
+}
+[dir=rtl] .error-banner-message span {
+}
+@keyframes streaming-question-fade-up {
+    from {
+    }
+    to {
+    }
+}
+@keyframes streaming-next-settle {
+    from {
+    }
+    to {
+    }
+}
+.streaming-questions .question.streaming-question-revealed {
+}
+#next-button.streaming-next-settle {
+}
+@media(prefers-reduced-motion: reduce) {
+    .streaming-questions .question.streaming-question-revealed {
+    }
+    #next-button.streaming-next-settle {
+    }
+}
+#end-of-survey {
+}
+#summary-message-wrapper {
+}
+@media print {
+    #summary-message-wrapper {
+    }
+}
+@media(max-width: 30rem) {
+    #summary-message-wrapper {
+    }
+}
+#summary-message-wrapper .pdf-button {
+}
+#summary-message-wrapper .pdf-button .loading-spinner {
+}
+#summary-message-wrapper .pdf-button .icon-button {
+}
+#summary-message-wrapper button[aria-disabled=true] {
+}
+#custom-summary-message {
+}
+@media(max-width: 30rem) {
+    #custom-summary-message {
+    }
+}
+:not(.questions-container) #custom-summary-message.empty {
+}
+@media print {
+    html body {
+    }
+    .question {
+    }
+    #summary .hidden {
+    }
+}
+#summary .question-content {
+}
+#summary .question-content .matrix-accordion .foldout-header,
+#summary .question-content .controls.playback,
+#summary .question-content .sbs-accordion .foldout-header,
+#summary .question-content .password-icon {
+}
+#summary .db .question-content {
+}
+#summary div.text-input {
+}
+#summary .summary-text-wrapper {
+}
+#summary .mc .choice.scored {
+}
+#summary .choice {
+}
+#summary .choice .choice-content {
+}
+#summary .resize-wrapper div.text-input {
+}
+#summary .grid-cell-input div.text-input {
+}
+#summary .matrix-table div.text-input {
+}
+#summary .matrix-table .grid-cell {
+}
+#summary .matrix-table .grid-cell .grid-cell-input {
+}
+#summary .matrix-table .choice-te-wrapper div.text-input {
+}
+#summary .matrix-table .summary-text-wrapper {
+}
+#summary .matrix-table.transposed .choice-content {
+}
+#summary .matrix-table.transposed .choice-te-wrapper {
+}
+#summary .matrix-table.transposed .matrix-statement-header .display-with-image {
+}
+#summary .sbs-column .choice-te-wrapper div.text-input {
+}
+#summary .sbs-column .summary-text-wrapper {
+}
+#summary .sbs-accordion .text-input-control div.text-input {
+}
+#summary .sbs-accordion .choice-te-wrapper div.text-input {
+}
+#summary .form .choice-te-wrapper div.text-input {
+}
+#summary .te .resize-wrapper div.text-input {
+}
+#summary .auto .summary-text-wrapper .text-input {
+}
+#summary .mc .choice-te-wrapper div.text-input {
+}
+#summary .cs .input-wrapper .text-input {
+}
+#summary .cs .input-wrapper .text-input.display-box {
+}
+#summary .cs .choice-te-wrapper .text-input {
+}
+#summary .choice-te-wrapper div.text-input {
+}
+#summary .password {
+}
+#summary .password div.text-input {
+}
+#summary .draggable-grouper div.text-input {
+}
+#summary .draggable-grouper .content-wrapper {
+}
+#summary .combo-box .text-input {
+}
+#summary select {
+}
+#summary select option.selected {
+}
+#summary .total-bar {
+}
+#error-message {
+}
+#error-message.error {
+}
+#confirm-start {
+}
+#confirm-start-message {
+}
+#challenge-content {
+}
+@media(max-width: 30rem) {
+    #challenge-content {
+    }
+}
+#challenge-message {
+}
+.common-button {
+}
+.common-button[disabled] {
+}
+.common-button.default {
+}
+.common-button.link {
+}
+.common-button.primary {
+}
+.common-button.primary:hover {
+}
+.common-button.primary:active {
+}
+.common-button.primary[disabled],
+.common-button.primary.disabled {
+}
+.common-button.primary[disabled]:hover,
+.common-button.primary[disabled]:active,
+.common-button.primary.disabled:hover,
+.common-button.primary.disabled:active {
+}
+.common-button.primary {
+}
+.common-button.secondary,
+.common-button.pill {
+}
+.common-button.secondary:hover,
+.common-button.pill:hover {
+}
+.common-button.secondary:active,
+.common-button.pill:active {
+}
+.common-button.secondary[disabled],
+.common-button.secondary.disabled,
+.common-button.pill[disabled],
+.common-button.pill.disabled {
+}
+.common-button.secondary[disabled]:hover,
+.common-button.secondary[disabled]:active,
+.common-button.secondary.disabled:hover,
+.common-button.secondary.disabled:active,
+.common-button.pill[disabled]:hover,
+.common-button.pill[disabled]:active,
+.common-button.pill.disabled:hover,
+.common-button.pill.disabled:active {
+}
+.common-button.secondary:hover,
+.common-button.pill:hover {
+}
+.common-button.secondary,
+.common-button.pill {
+}
+.common-button.pill {
+}
+#table-of-contents h1 {
+}
+#table-of-contents .error-message {
+}
+#table-of-contents .error-message .error-message-content {
+}
+#table-of-contents .error-message svg {
+}
+#table-of-contents .error-message ul {
+}
+#table-of-contents .error-message ul li {
+}
+.toc-tree .toc-header,
+.toc-tree .toc-entry {
+}
+.toc-tree .toc-header {
+}
+.toc-tree>.toc-header:first-of-type {
+}
+.toc-tree .toc-entry {
+}
+.toc-tree .toc-entry.active {
+}
+.toc-tree .toc-entry .status {
+}
+.toc-tree .toc-entry .status svg {
+}
+.toc-tree .toc-warning {
+}
+.toc-tree .toc-header {
+}
+.toc-tree .toc-entries li {
+}
+.toc-tree .toc-entries>li>.toc-entry {
+}
+.toc-tree .toc-entries>li>.toc-header {
+}
+.toc-tree .toc-entries>li .toc-entries>li>.toc-entry {
+}
+.toc-tree .toc-entries>li .toc-entries>li>.toc-header {
+}
+.toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-entry {
+}
+.toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-header {
+}
+.overlay {
+}
+.overlay.enter {
+}
+.overlay.enter-active,
+.overlay.enter-done {
+}
+.overlay.exit-active {
+}
+.overlay.exit {
+}
+.overlay.exit-active {
+}
+#page footer {
+}
+@media(min-width: 30rem) {
+    #page footer .plug-container {
+    }
+}
+#page #header,
+#page #footer {
+}
+#page #header-container,
+#page #survey-canvas,
+#page #footer {
+}
+@media(min-width: 64rem) {
+    #page #header-container,
+    #page #survey-canvas,
+    #page #footer {
+    }
+}
+#page #header-container {
+}
+@media(max-width: 30rem) {
+    #page #header-container {
+    }
+}
+#page #header-container.empty {
+}
+@media only screen and (max-width: 30rem) {
+    #page #header-container.empty {
+    }
+}
+@media print {
+    #page #header-container.empty {
+    }
+}
+#page #survey-canvas.questions-container {
+}
+@media(min-width: 64rem) {
+    #page #survey-canvas {
+    }
+}
+#progress-bar {
+}
+#progress-bar.floating {
+}
+@media(min-width: 64rem) {
+    #progress-bar.floating {
+    }
+}
+#progress-bar.progress-bar-bottom {
+}
+#progress-bar #progress-bar-fill {
+}
+#progress-bar #progress-bar-fill div {
+}
+#progress-bar.progress-bar-verbose {
+}
+#progress-bar #progress-bar-text {
+}
+#progress-bar progress {
+}
+#logo-container {
+}
+@media(min-width: 64rem) {
+    #logo-container {
+    }
+}
+#logo-container.position-right {
+}
+#logo-container.position-center {
+}
+#logo-container.banner {
+}
+#logo-container img {
+}
+@media(max-width: 30rem) {
+    #logo-container {
+    }
+    #logo-container img {
+    }
+}
+.plug-container {
+}
+.plug-container a svg {
+}
+[dir=rtl] .plug-container a svg {
+}
+@media(min-width: 30rem) {
+    .plug-container {
+    }
+}
+.plug-container #plug {
+}
+@media print {
+    .plug-container #plug {
+    }
+}
+.plug-container #plug a {
+}
+.plug-container #plug a svg {
+}
+.plug-container #plug a:focus-visible {
+}
+@media(min-width: 30rem) {
+    .plug-container #plug a {
+    }
+    [dir=rtl] .plug-container #plug a {
+    }
+    .plug-container #plug a:hover {
+    }
+    .plug-container #plug a:hover svg {
+    }
+}
+#auto-advance-banner-container {
+}
+@media(min-width: 64rem) {
+    #auto-advance-banner-container {
+    }
+}
+#auto-advance-banner-container .auto-advance-banner {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-message {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-message svg {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-message span {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close svg {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close svg:hover {
+}
+#auto-advance-banner-container .auto-advance-banner .auto-advance-banner-close:focus-visible svg {
+}
+@media(max-width: 30rem) {
+    #auto-advance-banner-container .auto-advance-banner {
+    }
+}
+#sidebar .toc-tree {
+}
+#sidebar .toc-tree .toc-header {
+}
+#sidebar .toc-tree .toc-entries li {
+}
+#sidebar .toc-tree .toc-entries>li>.toc-entry {
+}
+#sidebar .toc-tree .toc-entries>li>.toc-header {
+}
+#sidebar .toc-tree .toc-entries>li .toc-entries>li>.toc-entry {
+}
+#sidebar .toc-tree .toc-entries>li .toc-entries>li>.toc-header {
+}
+#sidebar .toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-entry {
+}
+#sidebar .toc-tree .toc-entries>li .toc-entries>li .toc-entries>li>.toc-header {
+}
+#sidebar .toc-tree {
+}
+.popper-container {
+}
+.popper-container.inline {
+}
+.popper {
+}
+.popper>* {
+}
+.popper.show {
+}
+.popper.show.custom-width {
+}
+#language-selector {
+}
+label[for=language-selector] {
+}
+.dropdown-menu {
+}
+.select-menu {
+}
+.select-menu.menu-button {
+}
+.select-menu.menu-button:hover {
+}
+.select-menu.menu-button:active {
+}
+.select-menu.menu-button[disabled],
+.select-menu.menu-button.disabled {
+}
+.select-menu.menu-button[disabled]:hover,
+.select-menu.menu-button[disabled]:active,
+.select-menu.menu-button.disabled:hover,
+.select-menu.menu-button.disabled:active {
+}
+.select-menu.menu-button {
+}
+.select-menu.menu-button svg {
+}
+.select-menu.menu-button.active {
+}
+.select-menu.menu-button:hover {
+}
+.select-menu.menu-dropdown {
+}
+.select-menu.menu-dropdown .focused {
+}
+.select-menu.menu-dropdown .menu-item {
+}
+.select-menu.menu-dropdown .menu-item:hover,
+.select-menu.menu-dropdown .menu-item.focused {
+}
+.select-menu.menu-dropdown .menu-item.selected {
+}
+.select-menu.menu-dropdown .menu-item.selected:hover,
+.select-menu.menu-dropdown .menu-item.selected.focused {
+}
+.select-menu.menu-dropdown .menu-item,
+.select-menu.menu-dropdown .menu-item-group-label {
+}
+.select-menu.menu-dropdown .menu-item.grouped {
+}
+.select-menu.menu-dropdown .menu-item-group-label {
+}
+.mc .choice-label {
+}
+.mc .choice-label * {
+}
+[dir=rtl] .mc .choice-label {
+}
+@media(min-width: 30rem) {
+    .mc .choice-label {
+    }
+    [dir=rtl] .mc .choice-label {
+    }
+}
+.mc .radio-button {
+}
+.mc.vertical .choices.columnar {
+}
+@media(min-width: 30rem) {
+    .mc.horizontal .choices .choice.scored.above,
+    .mc.vertical .choices .choice.scored.above {
+    }
+    .mc.horizontal .choices .choice.scored.above .choice-label,
+    .mc.vertical .choices .choice.scored.above .choice-label {
+    }
+}
+.mc .choices .choice.scored .choice-label {
+}
+[dir=rtl] .mc .choices .choice.scored .choice-label {
+}
+@media(min-width: 30rem) {
+    .mc .choices .choice.scored .choice-label {
+    }
+    [dir=rtl] .mc .choices .choice.scored .choice-label {
+    }
+}
+.mc .choice.focused .choice-label {
+}
+.mc .choice.focused .radio-button {
+}
+.mc .choice.selected .choice-label {
+}
+.mc .choice.selected.focused .choice-label {
+}
+.mc .choice.selected.focused .radio-button {
+}
+.mc .choice:hover .choice-label {
+}
+.mc .choice:hover .radio-button {
+}
+.mc .choice.selected:hover .choice-label {
+}
+.mc .choice:active .choice-label {
+}
+.mc .choice input[type=text] {
+}
+.mc .choice input[type=radio],
+.mc .choice input[type=checkbox] {
+}
+.mc .choices {
+}
+.mc .choice {
+}
+.mc .choice .choice-error-container {
+}
+.mc .choice .choice-error-container .choice-error.error {
+}
+[dir=rtl] .mc .choice .choice-error-container .choice-error.error {
+}
+.mc .choice .choice-error-container .error-message {
+}
+[dir=ltr] .mc .choice-content {
+}
+[dir=rtl] .mc .choice-content {
+}
+[dir=ltr] .mc .choice-group {
+}
+[dir=rtl] .mc .choice-group {
+}
+.mc.vertical .choices .choice,
+.mc.horizontal .choices .choice {
+}
+.mc.vertical .choices .choice-group,
+.mc.horizontal .choices .choice-group {
+}
+.mc.vertical .choices .choice-group-label-display,
+.mc.horizontal .choices .choice-group-label-display {
+}
+@media(min-width: 30rem) {
+    .mc.vertical .choices .choice,
+    .mc.horizontal .choices .choice {
+    }
+    .mc.vertical .choices .choice-group,
+    .mc.horizontal .choices .choice-group {
+    }
+    .mc.vertical .choices .choice-group-label-display,
+    .mc.horizontal .choices .choice-group-label-display {
+    }
+}
+.mc.vertical .choices .choice-group-label,
+.mc.horizontal .choices .choice-group-label {
+}
+[dir=rtl] .mc.vertical .choices .choice-group-label,
+[dir=rtl] .mc.horizontal .choices .choice-group-label {
+}
+@media(min-width: 30rem) {
+    .mc.vertical .choices .choice-group-label,
+    .mc.horizontal .choices .choice-group-label {
+    }
+    [dir=rtl] .mc.vertical .choices .choice-group-label,
+    [dir=rtl] .mc.horizontal .choices .choice-group-label {
+    }
+}
+.mc.vertical .choices .choice:last-child,
+.mc.horizontal .choices .choice:last-child {
+}
+.mc.vertical .choices.columnar,
+.mc.horizontal .choices.columnar {
+}
+@media(min-width: 30rem) {
+    .mc.vertical .choices.columnar,
+    .mc.horizontal .choices.columnar {
+    }
+}
+.mc.vertical .choices.columnar .choice,
+.mc.horizontal .choices.columnar .choice {
+}
+.mc.vertical .choices.columnar .choice .choice-label,
+.mc.horizontal .choices.columnar .choice .choice-label {
+}
+.mc.horizontal .choices {
+}
+.mc.horizontal .choices .choice.above .choice-label {
+}
+@media(min-width: 30rem) {
+    .mc.horizontal .choices {
+    }
+    .mc.horizontal .choices .choice {
+    }
+    .mc.horizontal .choices .choice.side .choice-label {
+    }
+    .mc.horizontal .choices .choice.above .choice-label {
+    }
+    .mc.horizontal .choices .choice.above .choice-label .choice-content {
+    }
+}
+.mc.dropdown .menu-button {
+}
+.mc.select select {
+}
+.mc.select select option {
+}
+.mc.select select optgroup {
+}
+.mc .mc-button-choices .choices {
+}
+.mc .mc-button-choices .choice.radio .radio-button {
+}
+.mc .mc-button-choices .choice.radio .choice-label {
+}
+.mc .mc-button-choices .choice.radio .choice-label .choice-content {
+}
+.mc .mc-button-choices .choice input[type=radio] {
+}
+.mc .mc-button-choices .choice .choice-label {
+}
+.mc .mc-button-choices .choice.focused .choice-label {
+}
+.mc .mc-button-choices .choice.selected .choice-label {
+}
+.mc .mc-button-choices .choice:hover .choice-label {
+}
+.mc .mc-button-choices .choice.selected:hover .choice-label,
+.mc .mc-button-choices .choice.selected.focused:hover .choice-label {
+}
+.mc .mc-button-choices .choice:active .choice-label {
+}
+.mc .mc-button-choices .choice.focused:active .choice-label {
+}
+.mc.horizontal .mc-button-choices .choices,
+.mc.vertical .mc-button-choices .choices.columnar {
+}
+.mc.horizontal .mc-button-choices .choices .choice.above.radio .choice-label,
+.mc.horizontal .mc-button-choices .choices .choice.side.radio .choice-label,
+.mc.vertical .mc-button-choices .choices.columnar .choice.above.radio .choice-label,
+.mc.vertical .mc-button-choices .choices.columnar .choice.side.radio .choice-label {
+}
+.mc.horizontal .mc-button-choices .choices .choice.above.radio .choice-label .choice-content,
+.mc.horizontal .mc-button-choices .choices .choice.side.radio .choice-label .choice-content,
+.mc.vertical .mc-button-choices .choices.columnar .choice.above.radio .choice-label .choice-content,
+.mc.vertical .mc-button-choices .choices.columnar .choice.side.radio .choice-label .choice-content {
+}
+@media(min-width: 30rem) {
+    .mc.horizontal .mc-button-choices .choices,
+    .mc.vertical .mc-button-choices .choices.columnar {
+    }
+    .mc.horizontal .mc-button-choices .choices .choice.above.radio .choice-label,
+    .mc.horizontal .mc-button-choices .choices .choice.side.radio .choice-label,
+    .mc.vertical .mc-button-choices .choices.columnar .choice.above.radio .choice-label,
+    .mc.vertical .mc-button-choices .choices.columnar .choice.side.radio .choice-label {
+    }
+}
+.choice-content {
+}
+.choice-content .choice-te-wrapper {
+}
+.choice-content .choice-te-wrapper.choice-te-unselected {
+}
+.choice-content .choice-te-wrapper.choice-te-unselected input,
+.choice-content .choice-te-wrapper.choice-te-unselected textarea {
+}
+.summary-text-wrapper {
+}
+.summary-text-wrapper.scored .score-icon {
+}
+.summary-text-wrapper.scored .text-input {
+}
+.summary-text-wrapper.scored {
+}
+.score-icon {
+}
+.score-icon.correct {
+}
+.display-with-image {
+}
+.display-with-image .expandable-image-button {
+}
+.display-with-image .expandable-image {
+}
+.display-with-image .display-with-image-display {
+}
+.display-with-image.display-top .display-with-image-display {
+}
+.display-with-image.display-top .expandable-image {
+}
+.display-with-image.display-right .display-with-image-display {
+}
+.display-with-image.display-right .expandable-image {
+}
+.display-with-image.display-bottom .display-with-image-display {
+}
+.display-with-image.display-bottom .expandable-image {
+}
+.display-with-image.display-left .display-with-image-display {
+}
+.display-with-image.display-left .expandable-image {
+}
+#lightbox-container {
+}
+#lightbox-container .icon {
+}
+#lightbox-header {
+}
+#lightbox {
+}
+#lightbox-img-label {
+}
+#lightbox-img {
+}
+#lightbox-close {
+}
+#lightbox-close:hover,
+#lightbox-close:active {
+}
+[dir=rtl] #lightbox-close {
+}
+.password {
+}
+@media(max-width: 30rem) {
+    .password {
+    }
+}
+.password .password-icon {
+}
+[dir=ltr] .password .password-icon {
+}
+[dir=rtl] .password .password-icon {
+}
+[dir=ltr] .password .password-input {
+}
+[dir=rtl] .password .password-input {
+}
+#q {
+}
+#q::before {
+}
+@keyframes q {
+    0% {
+    }
+    100% {
+    }
+}
