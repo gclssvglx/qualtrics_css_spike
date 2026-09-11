@@ -1,0 +1,278 @@
+:root {
+    color-scheme: light dark;
+
+    --logo-height: 6.25rem;
+    --logo-mobile-scale: 0.6;
+    --font-family: "72", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --question-text-size: 1.25rem;
+    --question-text-weight: normal;
+    --answer-text-size: 1rem;
+    --answer-text-weight: normal;
+    --layout-spacing: 0.5;
+
+    --background-color: #ffffff;
+    --background-overlay-opacity: 0;
+    --questions-container-color: #ffffff;
+
+    --palettes-text-1: #1a1a1a;
+    --palettes-text-2: #404040;
+    --palettes-text-3: #595959;
+    --palettes-text-4: #737373;
+    --palettes-text-5: #8c8c8c;
+
+    --palettes-bg-1: #ffffff;
+    --palettes-bg-2: #fafafa;
+    --palettes-bg-3: #f2f2f2;
+    --palettes-bg-4: #e8e8e8;
+    --palettes-bg-5: #000000;
+
+    --palettes-neutral-1: #eeeeee;
+    --palettes-neutral-2: #e0e0e0;
+    --palettes-neutral-3: #cccccc;
+    --palettes-neutral-4: #b3b3b3;
+    --palettes-neutral-5: #808080;
+
+    --palettes-error-1: #c0152f;
+    --palettes-info-1: #0969da;
+    --palettes-info-2: #4f95e8;
+    --palettes-warn-1: #fdf6ec;
+    --palettes-warn-2: #b5650a;
+    --palettes-correct-1: #157f3b;
+
+    --mixes-primary-1: #6552d0;
+    --mixes-primary-2: #ffffff;
+    --mixes-primary-for-active-1: #ece9fb;
+    --mixes-primary-for-active-2: #4c3aa8;
+    --mixes-primary-text-on-white-1: #ffffff;
+    --mixes-primary-text-on-white-2: #6552d0;
+    --mixes-disabled-text-on-input-1: #8c8c8c;
+    --mixes-disabled-text-on-input-2: #f2f2f2;
+    --mixes-secondary-button-1: #f2f2f2;
+    --mixes-secondary-button-2: #4c3aa8;
+    --mixes-input-neutral-border-1: #d8d3f5;
+    --mixes-input-neutral-border-2: #737373;
+
+    --colors-primary-as-text: #6552d0;
+    --colors-primary-as-control: #6552d0;
+    --colors-primary-for-hover: #f1eefc;
+    --colors-primary-for-active: #ece9fb;
+    --colors-primary-for-selected: #e3ddf9;
+    --colors-primary-for-matrix-hover: #ddd6f7;
+    --colors-primary-for-selected-hover: #d3caf5;
+    --colors-primary-for-sbs-column-hover: #c7bbf2;
+    --colors-primary-for-focus: #7a68d6;
+    --colors-primary-for-border: #b3a6ec;
+
+    --palettes-text-1-on-bg: var(--palettes-text-1);
+    --palettes-text-2-on-bg: var(--palettes-text-2);
+    --palettes-text-3-on-bg: var(--palettes-text-3);
+    --palettes-text-4-on-bg: var(--palettes-text-4);
+    --palettes-text-5-on-bg: var(--palettes-text-5);
+    --palettes-bg-1-on-bg: var(--palettes-bg-1);
+    --palettes-bg-2-on-bg: var(--palettes-bg-2);
+    --palettes-bg-3-on-bg: var(--palettes-bg-3);
+    --palettes-bg-4-on-bg: var(--palettes-bg-4);
+    --palettes-bg-5-on-bg: var(--palettes-bg-5);
+    --palettes-neutral-1-on-bg: var(--palettes-neutral-1);
+    --palettes-neutral-2-on-bg: var(--palettes-neutral-2);
+    --palettes-neutral-3-on-bg: var(--palettes-neutral-3);
+    --palettes-neutral-4-on-bg: var(--palettes-neutral-4);
+    --palettes-neutral-5-on-bg: var(--palettes-neutral-5);
+    --palettes-error-1-on-bg: var(--palettes-error-1);
+    --palettes-info-1-on-bg: var(--palettes-info-1);
+    --palettes-info-2-on-bg: var(--palettes-info-2);
+    --palettes-warn-1-on-bg: var(--palettes-warn-1);
+    --palettes-warn-2-on-bg: var(--palettes-warn-2);
+    --palettes-correct-1-on-bg: var(--palettes-correct-1);
+    --colors-primary-as-text-on-bg: var(--colors-primary-as-text);
+    --colors-primary-as-control-on-bg: var(--colors-primary-as-control);
+    --colors-primary-for-hover-on-bg: var(--colors-primary-for-hover);
+    --colors-primary-for-active-on-bg: var(--colors-primary-for-active);
+    --colors-primary-for-selected-on-bg: var(--colors-primary-for-selected);
+    --colors-primary-for-matrix-hover-on-bg: var(--colors-primary-for-matrix-hover);
+    --colors-primary-for-selected-hover-on-bg: var(--colors-primary-for-selected-hover);
+    --colors-primary-for-sbs-column-hover-on-bg: var(--colors-primary-for-sbs-column-hover);
+    --colors-primary-for-focus-on-bg: var(--colors-primary-for-focus);
+    --colors-primary-for-border-on-bg: var(--colors-primary-for-border);
+}
+
+.light-theme {
+    color-scheme: light;
+
+    --background-color: #ffffff;
+    --questions-container-color: #ffffff;
+
+    --palettes-text-1: #1a1a1a;
+    --palettes-text-2: #404040;
+    --palettes-text-3: #595959;
+    --palettes-text-4: #737373;
+    --palettes-text-5: #8c8c8c;
+
+    --palettes-bg-1: #ffffff;
+    --palettes-bg-2: #fafafa;
+    --palettes-bg-3: #f2f2f2;
+    --palettes-bg-4: #e8e8e8;
+    --palettes-bg-5: #000000;
+
+    --palettes-neutral-1: #eeeeee;
+    --palettes-neutral-2: #e0e0e0;
+    --palettes-neutral-3: #cccccc;
+    --palettes-neutral-4: #b3b3b3;
+    --palettes-neutral-5: #808080;
+
+    --palettes-error-1: #c0152f;
+    --palettes-info-1: #0969da;
+    --palettes-info-2: #4f95e8;
+    --palettes-warn-1: #fdf6ec;
+    --palettes-warn-2: #b5650a;
+    --palettes-correct-1: #157f3b;
+
+    --mixes-primary-1: #6552d0;
+    --mixes-primary-2: #ffffff;
+    --mixes-primary-for-active-1: #ece9fb;
+    --mixes-primary-for-active-2: #4c3aa8;
+    --mixes-primary-text-on-white-1: #ffffff;
+    --mixes-primary-text-on-white-2: #6552d0;
+    --mixes-disabled-text-on-input-1: #8c8c8c;
+    --mixes-disabled-text-on-input-2: #f2f2f2;
+    --mixes-secondary-button-1: #f2f2f2;
+    --mixes-secondary-button-2: #4c3aa8;
+    --mixes-input-neutral-border-1: #d8d3f5;
+    --mixes-input-neutral-border-2: #737373;
+
+    --colors-primary-as-text: #6552d0;
+    --colors-primary-as-control: #6552d0;
+    --colors-primary-for-hover: #f1eefc;
+    --colors-primary-for-active: #ece9fb;
+    --colors-primary-for-selected: #e3ddf9;
+    --colors-primary-for-matrix-hover: #ddd6f7;
+    --colors-primary-for-selected-hover: #d3caf5;
+    --colors-primary-for-sbs-column-hover: #c7bbf2;
+    --colors-primary-for-focus: #7a68d6;
+    --colors-primary-for-border: #b3a6ec;
+
+    --palettes-text-1-on-bg: var(--palettes-text-1);
+    --palettes-text-2-on-bg: var(--palettes-text-2);
+    --palettes-text-3-on-bg: var(--palettes-text-3);
+    --palettes-text-4-on-bg: var(--palettes-text-4);
+    --palettes-text-5-on-bg: var(--palettes-text-5);
+    --palettes-bg-1-on-bg: var(--palettes-bg-1);
+    --palettes-bg-2-on-bg: var(--palettes-bg-2);
+    --palettes-bg-3-on-bg: var(--palettes-bg-3);
+    --palettes-bg-4-on-bg: var(--palettes-bg-4);
+    --palettes-bg-5-on-bg: var(--palettes-bg-5);
+    --palettes-neutral-1-on-bg: var(--palettes-neutral-1);
+    --palettes-neutral-2-on-bg: var(--palettes-neutral-2);
+    --palettes-neutral-3-on-bg: var(--palettes-neutral-3);
+    --palettes-neutral-4-on-bg: var(--palettes-neutral-4);
+    --palettes-neutral-5-on-bg: var(--palettes-neutral-5);
+    --palettes-error-1-on-bg: var(--palettes-error-1);
+    --palettes-info-1-on-bg: var(--palettes-info-1);
+    --palettes-info-2-on-bg: var(--palettes-info-2);
+    --palettes-warn-1-on-bg: var(--palettes-warn-1);
+    --palettes-warn-2-on-bg: var(--palettes-warn-2);
+    --palettes-correct-1-on-bg: var(--palettes-correct-1);
+    --colors-primary-as-text-on-bg: var(--colors-primary-as-text);
+    --colors-primary-as-control-on-bg: var(--colors-primary-as-control);
+    --colors-primary-for-hover-on-bg: var(--colors-primary-for-hover);
+    --colors-primary-for-active-on-bg: var(--colors-primary-for-active);
+    --colors-primary-for-selected-on-bg: var(--colors-primary-for-selected);
+    --colors-primary-for-matrix-hover-on-bg: var(--colors-primary-for-matrix-hover);
+    --colors-primary-for-selected-hover-on-bg: var(--colors-primary-for-selected-hover);
+    --colors-primary-for-sbs-column-hover-on-bg: var(--colors-primary-for-sbs-column-hover);
+    --colors-primary-for-focus-on-bg: var(--colors-primary-for-focus);
+    --colors-primary-for-border-on-bg: var(--colors-primary-for-border);
+}
+
+.dark-theme {
+    color-scheme: dark;
+
+    --background-color: #1a1a1a;
+    --questions-container-color: #1a1a1a;
+
+    --palettes-text-1: #f2f2f2;
+    --palettes-text-2: #d9d9d9;
+    --palettes-text-3: #bfbfbf;
+    --palettes-text-4: #a6a6a6;
+    --palettes-text-5: #8c8c8c;
+
+    --palettes-bg-1: #1a1a1a;
+    --palettes-bg-2: #202020;
+    --palettes-bg-3: #262626;
+    --palettes-bg-4: #333333;
+    --palettes-bg-5: #ffffff;
+
+    --palettes-neutral-1: #2b2b2b;
+    --palettes-neutral-2: #383838;
+    --palettes-neutral-3: #454545;
+    --palettes-neutral-4: #595959;
+    --palettes-neutral-5: #737373;
+
+    --palettes-error-1: #ff6b6b;
+    --palettes-info-1: #58a6ff;
+    --palettes-info-2: #79b8ff;
+    --palettes-warn-1: #2a2110;
+    --palettes-warn-2: #e0952f;
+    --palettes-correct-1: #3fb968;
+
+    --mixes-primary-1: #9083e0;
+    --mixes-primary-2: #14101f;
+    --mixes-primary-for-active-1: #372b66;
+    --mixes-primary-for-active-2: #c3b8f0;
+    --mixes-primary-text-on-white-1: #14101f;
+    --mixes-primary-text-on-white-2: #9083e0;
+    --mixes-disabled-text-on-input-1: #737373;
+    --mixes-disabled-text-on-input-2: #262626;
+    --mixes-secondary-button-1: #262626;
+    --mixes-secondary-button-2: #c3b8f0;
+    --mixes-input-neutral-border-1: #372b66;
+    --mixes-input-neutral-border-2: #737373;
+
+    --colors-primary-as-text: #9083e0;
+    --colors-primary-as-control: #9083e0;
+    --colors-primary-for-hover: #2a2340;
+    --colors-primary-for-active: #372b66;
+    --colors-primary-for-selected: #423480;
+    --colors-primary-for-matrix-hover: #4a3b90;
+    --colors-primary-for-selected-hover: #53439f;
+    --colors-primary-for-sbs-column-hover: #5c4bb0;
+    --colors-primary-for-focus: #a89af0;
+    --colors-primary-for-border: #5c4bb0;
+
+    --palettes-text-1-on-bg: var(--palettes-text-1);
+    --palettes-text-2-on-bg: var(--palettes-text-2);
+    --palettes-text-3-on-bg: var(--palettes-text-3);
+    --palettes-text-4-on-bg: var(--palettes-text-4);
+    --palettes-text-5-on-bg: var(--palettes-text-5);
+    --palettes-bg-1-on-bg: var(--palettes-bg-1);
+    --palettes-bg-2-on-bg: var(--palettes-bg-2);
+    --palettes-bg-3-on-bg: var(--palettes-bg-3);
+    --palettes-bg-4-on-bg: var(--palettes-bg-4);
+    --palettes-bg-5-on-bg: var(--palettes-bg-5);
+    --palettes-neutral-1-on-bg: var(--palettes-neutral-1);
+    --palettes-neutral-2-on-bg: var(--palettes-neutral-2);
+    --palettes-neutral-3-on-bg: var(--palettes-neutral-3);
+    --palettes-neutral-4-on-bg: var(--palettes-neutral-4);
+    --palettes-neutral-5-on-bg: var(--palettes-neutral-5);
+    --palettes-error-1-on-bg: var(--palettes-error-1);
+    --palettes-info-1-on-bg: var(--palettes-info-1);
+    --palettes-info-2-on-bg: var(--palettes-info-2);
+    --palettes-warn-1-on-bg: var(--palettes-warn-1);
+    --palettes-warn-2-on-bg: var(--palettes-warn-2);
+    --palettes-correct-1-on-bg: var(--palettes-correct-1);
+    --colors-primary-as-text-on-bg: var(--colors-primary-as-text);
+    --colors-primary-as-control-on-bg: var(--colors-primary-as-control);
+    --colors-primary-for-hover-on-bg: var(--colors-primary-for-hover);
+    --colors-primary-for-active-on-bg: var(--colors-primary-for-active);
+    --colors-primary-for-selected-on-bg: var(--colors-primary-for-selected);
+    --colors-primary-for-matrix-hover-on-bg: var(--colors-primary-for-matrix-hover);
+    --colors-primary-for-selected-hover-on-bg: var(--colors-primary-for-selected-hover);
+    --colors-primary-for-sbs-column-hover-on-bg: var(--colors-primary-for-sbs-column-hover);
+    --colors-primary-for-focus-on-bg: var(--colors-primary-for-focus);
+    --colors-primary-for-border-on-bg: var(--colors-primary-for-border);
+}
+
+html body {
+    color: var(--palettes-text-1);
+    background-color: var(--background-color);
+}
